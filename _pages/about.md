@@ -21,4 +21,4 @@ Hi, I'm Ian. I'm currently a radiology resident in the Brigham and Women's Hospi
 
 I'm in interested in applications of artificial intelligence to healthcare, specifically radiology and medical imaging. I have published several manuscripts and continue to work on various projects in this area. I'm also an avid Kaggler and the first physician to earn the title of Kaggle Competitions Grandmaster, focusing mainly on competitions related to medical imaging. At my peak, I was top 10 in the world (#9).
 
-In my free time, I like to eat, run, and watch K-dramas. 
+In my free time, I like to eat, run, and watch K-dramas. I also enjoy spending time with my amazing retina surgeon wife.
