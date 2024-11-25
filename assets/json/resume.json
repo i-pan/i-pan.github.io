@@ -132,11 +132,23 @@
       "summary": "Part of 3rd place duo in this competition hosted on Kaggle"
     },
     {
+      "title": "The Willard A. Bernbaum Award",
+      "date": "2021",
+      "awarder": "Case Western Reserve University School of Medicine",
+      "summary": "Awarded by the Department of Medicine to 2 exemplary preliminary interns in Internal Medicine per year"
+    },
+    {
       "title": "RSNA Pulmonary Embolism Detection Challenge 2nd Place Winner",
       "date": "2020",
       "awarder": "Radiological Society of North America",
       "url": "https://www.rsna.org/rsnai/ai-image-challenge/rsna-pe-detection-challenge-2020",
       "summary": "2nd place in this competition hosted on Kaggle, also received the Educational Merit Award"
+    },
+    {
+      "title": "RSNA Trainee Research Prize in Neuroradiology",
+      "date": "2020",
+      "awarder": "Radiological Society of North America",
+      "summary": "Awarded for scientific abstract, Fully-Automated Identification and Characterization of Large Vessel Occlusions on CT Angiography with 3D Convolutional Neural Networks, under the mentorship of Dr. Harrison Bai"
     },
     {
       "title": "Radiological Society of Rhode Island Prize",
@@ -169,29 +181,6 @@
       "date": "2016",
       "awarder": "Program in Liberal Medical Education, Brown University",
       "summary": "Awarded to the PLME student who has best utilized the potentialities inherent in the PLME to pursue scholarly interests in the natural sciences which will enhance and enrich the student’s career as a physician"
-    }
-  ],
-  "publications": [
-    {
-      "name": "Zur Elektrody/namik bewegter Körper",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-06-30",
-      "url": "https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies",
-      "summary": "It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source."
-    },
-    {
-      "name": "Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1905-03-18",
-      "url": "https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt",
-      "summary": "In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921."
-    },
-    {
-      "name": "Die Grundlage der allgemeinen Relativitätstheorie",
-      "publisher": "Annalen der Physik",
-      "releaseDate": "1916-03-20",
-      "url": "https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie",
-      "summary": "The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914)."
     }
   ],
   "skills": [
