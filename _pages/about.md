@@ -2,24 +2,23 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: PGY-5 Radiology Resident at <a href='https://www.brighamandwomens.org/radiology/education-and-training'>Brigham and Women's Hospital</a>. 
+  <br><a href='https://kaggle.com/vaillant/'>Kaggle</a> Competitions Grandmaster.</br>
+  <br>BS, MA, MD from <a href='https://www.brown.edu/'>Brown University.</a></br>
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image: peep_prof_pic.jpg
+  image_circular: true # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
 
 news: true # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hi, I'm Ian. I'm currently a radiology resident in the Brigham and Women's Hospital/Harvard Medical School Diagnostic Radiology Residency Program, where I also served as Chief Resident from 2023-2024. I will be staying at Brigham as a neuroradiology fellow for 2025-2026. 
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I'm in interested in applications of artificial intelligence to healthcare, specifically radiology and medical imaging. I have published several manuscripts and continue to work on various projects in this area. I'm also an avid Kaggler and the first physician to earn the title of Kaggle Competitions Grandmaster, focusing mainly on competitions related to medical imaging. At my peak, I was top 10 in the world (#9).
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+In my free time, I like to eat, run, and watch K-dramas. 

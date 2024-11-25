@@ -1,14 +1,11 @@
 github_users:
-  - torvalds
-  - alshedivat
+  - i-pan
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - i-pan/kaggle-rsna-pe
+  - i-pan/kaggle-rsna-cspine
+  - i-pan/kaggle-rsna18
+  - darraghdog/Breast-Cancer-Detection
+  - yujiariyasu/siim_covid19_detection

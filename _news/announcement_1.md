@@ -1,8 +1,8 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
+date: 2024-05-08 13:05:00-0400
 inline: true
 related_posts: false
 ---
 
-A simple inline announcement.
+I received an RSNA Research Resident Grant for my project *Artificial Intelligence for Longitudinal Segmentation and Tumor Risk Prediction of IDH-Mutant Gliomas*
