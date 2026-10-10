@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<div class="post">
+<div class="post{% if page.profile.align == 'center' %} about-centered{% endif %}">
   <header class="post-header">
     <h1 class="post-title">
       {% if site.title == 'blank' %}
@@ -16,7 +16,7 @@ layout: default
 
   <article>
     {% if page.profile %}
-      <div class="profile float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}">
+      <div class="profile{% unless page.profile.align == 'center' %} float-{% if page.profile.align == 'left' %}left{% else %}right{% endif %}{% endunless %}">
         {% if page.profile.image %}
           {% assign profile_image_path = page.profile.image | prepend: 'assets/img/' %}
           {% if page.profile.image_circular %}
@@ -25,8 +25,11 @@ layout: default
             {% assign profile_image_class = 'img-fluid z-depth-1
       rounded' %}
           {% endif %}
-          {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
-      30vw, 95vw"{% endcapture %}
+          {% if page.profile.align == 'center' %}
+            {% assign sizes = '(min-width: 576px) 240px, 60vw' %}
+          {% else %}
+            {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw{% endcapture %}
+          {% endif %}
           {%
             include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
             cache_bust=true
@@ -38,7 +41,7 @@ layout: default
       </div>
     {% endif %}
 
-    <div class="clearfix">{{ content }}</div>
+    <div class="clearfix about-bio">{{ content }}</div>
 
     <!-- News -->
     {% if page.news and site.announcements.enabled %}

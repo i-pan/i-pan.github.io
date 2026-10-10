@@ -1,3 +1,6 @@
+{% if site.scholar_userid %}
+  <a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+{% endif %}
 {% if site.email %}
   <a href="mailto:{{ site.email | encode_email }}" title="email"><i class="fa-solid fa-envelope"></i></a>
 {% endif %}
@@ -10,8 +13,8 @@
 {% if site.orcid_id %}
   <a href="https://orcid.org/{{ site.orcid_id }}" title="ORCID"><i class="ai ai-orcid"></i></a>
 {% endif %}
-{% if site.scholar_userid %}
-  <a href="https://scholar.google.com/citations?user={{ site.scholar_userid }}" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+{% if site.kaggle_id %}
+  <a href="https://www.kaggle.com/{{ site.kaggle_id }}" title="Kaggle"><i class="fa-brands fa-kaggle"></i></a>
 {% endif %}
 {% if site.inspirehep_id %}
   <a href="https://inspirehep.net/authors/{{ site.inspirehep_id }}" title="Inspire HEP"><i class="ai ai-inspire"></i></a>
@@ -42,6 +45,9 @@
 {% endif %}
 {% if site.github_username %}
   <a href="https://github.com/{{ site.github_username }}" title="GitHub"><i class="fa-brands fa-github"></i></a>
+{% endif %}
+{% if site.huggingface_username %}
+  <a href="https://huggingface.co/{{ site.huggingface_username }}" title="Hugging Face" aria-label="Hugging Face"><img class="social-logo" src="{{ '/assets/img/huggingface.svg' | relative_url }}" alt="" width="64" height="64"></a>
 {% endif %}
 {% if site.linkedin_username %}
   <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
@@ -87,9 +93,6 @@
 {% endif %}
 {% if site.stackoverflow_id %}
   <a href="https://stackoverflow.com/users/{{ site.stackoverflow_id }}" title="Stackoverflow"><i class="fa-brands fa-stack-overflow"></i></a>
-{% endif %}
-{% if site.kaggle_id %}
-  <a href="https://www.kaggle.com/{{ site.kaggle_id }}" title="Kaggle"><i class="fa-brands fa-kaggle"></i></a>
 {% endif %}
 {% if site.lastfm_id %}
   <a href="https://www.last.fm/user/{{ site.lastfm_id }}" title="Last FM"><i class="fa-brands fa-lastfm"></i></a>

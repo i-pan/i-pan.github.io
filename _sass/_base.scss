@@ -385,6 +385,12 @@ ul.task-list input[type="checkbox"] {
   .contact-icons {
     font-size: 4rem;
 
+    .social-logo {
+      width: 1em;
+      height: 1em;
+      vertical-align: -0.1em;
+    }
+
     a {
       i::before {
         color: var(--global-text-color);

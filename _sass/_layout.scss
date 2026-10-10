@@ -38,7 +38,31 @@ body.sticky-bottom-footer {
   }
 }
 
-// TODO: redefine content layout.
+.about-centered {
+  text-align: center;
+
+  .post-header {
+    margin-bottom: 1.5rem;
+  }
+
+  .profile {
+    width: 60vw;
+    max-width: 240px;
+    margin: 0 auto 2rem;
+
+    figure {
+      margin: 0;
+    }
+  }
+
+  .about-bio {
+    max-width: 680px;
+    margin: 0 auto;
+    text-align: justify;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+  }
+}
 
 /******************************************************************************
  * Publications
